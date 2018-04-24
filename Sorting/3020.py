@@ -12,6 +12,8 @@ and the number of obstacles is all the obstacles to the end including that obsta
 number of obstacles in A + number of obstacles in B = totalnumberObstacles
 minimumLengthrockA = i+1 (from the top)
 minimumLengthrockB = n-i (from the bottom)
+
+Runtime = O(nlogn) + O(nlogn) + O(n(logn + logn)) = O(nlogn)
 """
 def binarysearchIndex(obstacles, target):
 	low = 0
